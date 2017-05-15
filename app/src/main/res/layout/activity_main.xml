@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:textColor="#FF8F00"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="MAC PARAGLIDING SCHOOL" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:text="Do not hesitate, to levitate..."
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/phone1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_phone_black_24dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_email_black_24dp"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/textView"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_open_in_browser_black_24dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+420777824323"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/phone1"
+        android:layout_marginRight="47dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="macskola@macskola.cz"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/padaky"
+        android:paddingBottom="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.macskola.cz"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_below="@+id/phone1"
+        android:layout_marginRight="47dp"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:id="@+id/textView4" />
+
+</RelativeLayout>
